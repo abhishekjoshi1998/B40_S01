@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        iframe {
+            width: 100%;
+            height: 600px;
+            border: none;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Book Library</h1>
+    <table>
+        <tr>
+            <th>Book Name</th>
+            <th>Author</th>
+        </tr>
+        <tr>
+            <td><a href="https://exploringjs.com/impatient-js/downloads/impatient-js-preview-book.pdf" target="pdfViewer">JavaScript 2022 </a></td>
+            <td>Author 1</td>
+        </tr>
+        <tr>
+            <td><a href="https://www.gurukultti.org/admin/notice/javascript.pdf" target="pdfViewer">JavaSript for Beginner</a></td>
+            <td>Author 2</td>
+        </tr>
+    </table>
+
+    <iframe name="pdfViewer"></iframe>
+
+</body>
+</html>
